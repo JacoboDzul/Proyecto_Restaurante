@@ -10,11 +10,15 @@ import Registrar from "./Components/UserPanel/Registrar/Registrar";
 import Empleados from "./Components/UserPanel/Empleados/Empleado";
 import NuevoEmpleado from "./Components/UserPanel/Empleados/NuevoEmpleado";
 import Reservas from "./Components/Reservas/Reservaciones";
+import Cocina from "./Components/Cocina/cocina-mod";
+
+
+
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:<Reservas/>,
+    element:<Cocina/>,
   },
   {
     path: "/login",
